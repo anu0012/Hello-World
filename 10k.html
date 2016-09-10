@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>10k apart</title>
+
+    <style type="text/css">
+        body{
+            font-family:arial,sans-serif;
+            font-size:100%;
+            background:#666;
+            text-align: center;
+        }
+        img{
+            height: 32px;
+            width: 32px;
+        }
+        .creator{
+            font-family:sans-serif;
+            padding-up:20px;
+            color: turquoise;
+        }
+        ul{
+            list-style: none;
+            overflow: hidden;
+        }
+        ul li{
+            margin: 1em;
+            display: inline-block;
+            background: cyan;
+            text-align: center;
+            width: 12em;
+            height: 12em;
+            transition: all 0.3s ease;
+        }
+        ul li pre{
+            overflow: hidden;
+        }
+        ul li:nth-child(n):hover
+        {
+            -webkit-transform: scale(1.25);
+            -moz-transform: scale(1.25);
+            -o-transform: scale(1.25);
+        }
+        ul li:nth-child(even){
+            -o-transform:rotate(4deg);
+            -webkit-transform:rotate(4deg);
+            -moz-transform:rotate(4deg);
+            background:#cfc;
+        }
+        ul li:nth-child(3n){
+            -o-transform:rotate(-3deg);
+            -webkit-transform:rotate(-3deg);
+            -moz-transform:rotate(-3deg);
+            background:#ccf;
+        }
+        ul li:nth-child(5n){
+            -o-transform:rotate(5deg);
+            -webkit-transform:rotate(5deg);
+            -moz-transform:rotate(5deg);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white">HELLO WORLD !</h1>
+    <ul>
+        <li>
+            <h1>Python</h1>
+            <pre>print("Hello World!")</pre>
+        </li>
+        <li>
+            <h1>PHP</h1>
+            <pre>&lt;?php
+  echo 'Hello World!';
+?></pre>
+        </li>
+        <li>
+            <h1>Java</h1>
+            <pre>
+System.out.println
+("Hello World!");
+}</pre>
+        </li>
+        <li>
+            <h1>Ruby</h1>
+            <pre>print 'Hello World!'</pre>
+        </li>
+        <li>
+            <h1>R</h1>
+            <pre>cat("Hello World!")
+</pre>
+        </li>
+        <li>
+            <h1>Swift</h1>
+            <pre>print("Hello world!")
+</pre>
+        </li>
+        <li>
+            <h1>VB</h1>
+            <pre>Module Main
+Sub Main()
+Console.WriteLine
+("Hello, world!")
+End Sub
+End Module
+</pre>
+        </li>
+        <li>
+            <h1>GO</h1>
+            <pre>package main
+import "fmt"
+func main() {
+	fmt.Println
+    ("Hello World!")
+}
+</pre>
+        </li>
+        <li>
+            <h1>C++</h1>
+            <pre>#include &lt;iostream>
+using namespace std;
+int main()
+{
+cout << "Hello World!";
+    return 0;
+}
+</pre>
+        </li>
+        <li>
+            <h1>C</h1>
+            <pre>#include &lt;stdio.h>
+
+int main()
+{
+printf("Hello World!");
+    return 0;
+}
+</pre>
+        </li>
+
+    </ul>
+    <h3 class="creator">Created with</h3><img src="l.png">
+</body>
+</html>
